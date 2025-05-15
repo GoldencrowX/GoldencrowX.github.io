@@ -74,5 +74,5 @@ def reset(level):
     session.modified = True
     return redirect(url_for('index', level=level))
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
